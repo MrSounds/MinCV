@@ -1,0 +1,108 @@
+body {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 8rem;
+  padding: 40px;
+  color: #973421;
+}
+
+@media (max-width: 1173px) {
+  h1 {
+    font-size: 6rem;
+  }
+}
+
+h2 {
+  color: #ac4b1c;
+}
+
+@media (max-width: 588px) {
+  h2 {
+    color: #5C2217;
+    padding-top: 40px;
+  }
+}
+
+h3 {
+  padding: 0 60px 0 60px;
+}
+
+h4 {
+  padding: 20px;
+  margin: 0;
+}
+
+h6 {
+  font-size: 15px;
+  font-weight: 100;
+  margin: 0;
+  padding: 0 0 10px 0;
+}
+
+p {
+  padding: 15px 35px 30px 35px;
+}
+
+.container-fluid {
+  padding: 1% 7%;
+  position: relative;
+}
+
+.forside {
+  background-image: url(../images/landscape.jpg);
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+}
+
+.om-meg {
+  background-color: #ffd57e;
+  height: 650px;
+}
+
+.profilePicture {
+  width: 42rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+@media (max-width: 990px) {
+  .profilePicture {
+    display: none;
+  }
+}
+
+.utdanning {
+  background-color: #FBA445;
+}
+
+.erfaring {
+  background-color: #E27928;
+}
+
+.bg-primary {
+  background-color: #FBA445 !important;
+}
+
+.btn-primary, .btn-primary-focus .btn-primary:active, .btn-primary:visited {
+  background-color: #973421 !important;
+  border-color: darkred !important;
+}
+
+.btn-primary:hover {
+  background-color: darkred !important;
+}
+
+.kontakt {
+  background-color: #AB4B25;
+}
+
+.btn-style {
+  margin: 0;
+  text-decoration: none;
+}
